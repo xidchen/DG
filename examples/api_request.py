@@ -6,6 +6,8 @@ import requests
 url = "http://127.0.0.1:8000"
 headers = {"Content-Type": "text/event-stream"}
 
+client = "01b8"
+
 config = {
     "character_gender": "女",
     "character_age": 28,
@@ -47,7 +49,7 @@ message4 = {
 }
 messages = [message1, message2, message3, message4]
 
-data = {"config": config, "messages": messages}
+data = {"client": client, "config": config, "messages": messages}
 
 
 res = requests.post(url=url, json=data, headers=headers, stream=True)
