@@ -9,10 +9,9 @@ headers = {"Content-Type": "text/event-stream"}
 client = "01b8"
 
 config = {
-    "character_gender": "女",
-    "character_age": 28,
-    "character_emotion": "喜悦",
-    "brand_promotion_pct": 90,
+    "product_name": "社交App",
+    "product_description": "Z世代社交",
+    "product_keyword": "新潮",
     "homepage_pct": 90,
     "pinned_video_pct": 90,
     "promotion_link_pct": 90,

@@ -27,12 +27,11 @@ Body中放置请求参数，参数详情如下：
 
 其中参数config：
 
-|          字段           |   类型   |     说明      | 可选值          |
+|          字段           |   类型   |     说明      | 示例或备注        |
 |:---------------------:|:------:|:-----------:|:-------------|
-|   character_gender    | string |    人设性别     | "男","女",""   |
-|     character_age     |  int   |    人设年龄     | 1-100        |
-|    character_role     | string |    人设角色     | "普通人","官方"   |
-|   character_emotion   | string |    人设情绪     | "喜悦","伤心"    |
+|     product_name      | string |    产品名称     | 单行输入         |
+|  product_description  | string |    产品描述     | 50字以内        |
+|    product_keyword    | string |    产品关键词    | 一行一个         |
 |  brand_promotion_pct  | float  |   品牌种草百分比   | 1-100        |
 |     homepage_pct      | float  |  吸引查看主页百分比  | 1-100        |
 |   pinned_video_pct    | string | 引导查看置顶视频百分比 | 1-100        |
